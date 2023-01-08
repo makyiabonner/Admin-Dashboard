@@ -46,7 +46,12 @@ main{
     gap:5px;
     padding-bottom: 10vh;
 }
-
+.dashboard > ul > li{
+    transition: transform 1s;
+}
+.dashboard > ul > li:hover{
+    transform: scale(1.1);
+}
 
 /*Hud Content*/
 .hud{
