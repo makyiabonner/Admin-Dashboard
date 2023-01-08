@@ -8,8 +8,28 @@ main{
     height:100vh;
     width:100%;
     display:grid;
-    background-color: red;
+    grid-template-columns: 20vw 1fr;
+    grid-template-rows: 10vh 1fr 5vh;
 }
-.dashboard{}
-.hud{}
-.main-content{}
+
+/*Dashboard Content*/
+.dashboard{
+    position:sticky;
+    background-color: red;
+    grid-area:1/1/4/2;
+}
+
+/*Hud Content*/
+.hud{
+    background-color: blue;
+    grid-area:1/2/2/3;
+}
+
+/*Main Content*/
+.main-content{
+    background-color: green;
+    grid-area:2/2/3/3;
+}
+footer{
+    grid-column:2/3;
+}
