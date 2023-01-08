@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 body{
     margin:0;
     padding:0;
+    background-color: rgb(39,15,54);
 }
 main{
     margin:0;
@@ -10,14 +14,30 @@ main{
     display:grid;
     grid-template-columns: 20vw 1fr;
     grid-template-rows: 10vh 1fr 5vh;
+    gap:20px;
 }
 
 /*Dashboard Content*/
 .dashboard{
     position:sticky;
-    background-color: red;
+    background-color: rgb(199,107,152);
     grid-area:1/1/4/2;
+    box-shadow: rgb(99,43,108) 5px 0px 10px;
+    border-radius:0px 120px 0px 0px;
+    color:white;
 }
+.dashboard > .logo{
+    display: grid;
+    grid-template-columns: 4vw 1fr;
+}
+.dashboard > .logo > svg{
+    align-self: center;
+}
+.dashboard > .logo > h1{
+    font-size: 4em;
+    font-family: 'Bakbak One', cursive;
+}
+
 
 /*Hud Content*/
 .hud{
