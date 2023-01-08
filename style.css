@@ -37,6 +37,15 @@ main{
     font-size: 4em;
     font-family: 'Bakbak One', cursive;
 }
+.dashboard > ul{
+    display: grid;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    gap:5px;
+    padding-bottom: 10vh;
+}
 
 
 /*Hud Content*/
