@@ -1,0 +1,15 @@
+body{
+    margin:0;
+    padding:0;
+}
+main{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100%;
+    display:grid;
+    background-color: red;
+}
+.dashboard{}
+.hud{}
+.main-content{}
