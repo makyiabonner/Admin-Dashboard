@@ -20,10 +20,9 @@ main{
 /*Dashboard Content*/
 .dashboard{
     position:sticky;
-    background-color: rgb(199,107,152);
+    background-color: rgb(160, 19, 87);
     grid-area:1/1/4/2;
     box-shadow: rgb(99,43,108) 5px 0px 10px;
-    border-radius:0px 120px 0px 0px;
     color:white;
 }
 .dashboard > .logo{
@@ -55,15 +54,43 @@ main{
 
 /*Hud Content*/
 .hud{
-    background-color: rgb(240,159,156);
+    background-color: rgb(39,15,54);
     box-shadow: rgb(99,43,108) -1px 8px 10px;
     grid-area:1/2/2/3;
-    border-radius:0 0 0 120px;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
+.hud > ul{
+    list-style: none;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-row:2/3;
+}
+.hud > ul > li{
+    border-radius: 10px 10px;
+    background-color: orangered;
+}
+.searchbar > svg{
+    position: relative;
+    right:-37px;
+    top:7px;
+}
 
+.search{
+    background-color: rgb(160, 19, 87);
+    border-radius: 100px 100px;
+    margin:6px;
+    border:none;
+    width:10vw;
+    height:3.3vh;
+    padding-left: 33px;
+    color:white;
+}
+.search::placeholder{
+    color:white;
+}
 /*Main Content*/
 .main-content{
     background-color: green;
