@@ -67,10 +67,14 @@ main{
     display: grid;
     grid-template-columns: repeat(3,100px);
     grid-row:2/3;
+    gap:10px;
+    margin-top:10px;
+    font-family: 'Bakbak One', cursive;
 }
 .hud > ul > li{
     border-radius: 10px 10px;
-    background-color: orangered;
+    text-align: center;
+    background-color: rgb(199,107,152);
 }
 .searchbar > svg{
     position: relative;
